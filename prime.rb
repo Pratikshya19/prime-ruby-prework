@@ -2,4 +2,6 @@
 def prime?(n)
 if n <= 1 
   false 
-elseif n
+elseif n == 2 
+  true 
+else
